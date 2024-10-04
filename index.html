@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master of Science in Data Science | University of Regina - Department of Computer Science</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #002147;
+            color: #fff;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+        }
+        header img {
+            width: 80px;
+            margin-right: 20px;
+        }
+        header .header-content {
+            text-align: left;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 5px 0;
+            font-size: 1.5em;
+        }
+        header p.program-title {
+            margin-top: -5px;
+            font-size: 1.75em;
+            font-weight: bold;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            background-color: #004085;
+            padding: 15px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #002147;
+            font-size: 2.5em;
+        }
+        h2 {
+            color: #002147;
+            font-size: 1.75em;
+        }
+        .highlight {
+            background-color: #e1f5fe;
+            padding: 10px;
+            border-left: 5px solid #004085;
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #002147;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 40px;
+        }
+        .cta-buttons {
+            margin-top: 20px;
+        }
+        .cta-buttons a {
+            background-color: #004085;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            margin-right: 10px;
+            border-radius: 5px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            background: #e3f2fd;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        .track-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        .track-table th, .track-table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        .track-table th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        .track-table .credits {
+            text-align: right;
+        }
+        .accordion {
+            margin-top: 20px;
+        }
+        .accordion h3 {
+            background-color: #f2f2f2;
+            padding: 15px;
+            margin: 0;
+            cursor: pointer;
+            border-bottom: 1px solid #ddd;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .accordion h3:hover {
+            background-color: #e0e0e0;
+        }
+        .accordion-content {
+            display: none;
+            padding: 15px;
+            border-bottom: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <header style="background-color: #002147; color: #fff; padding: 20px; display: flex; align-items: center; justify-content: flex-start; gap: 20px;">
+        <img src="https://i.ibb.co/sjzhfSt/logo.png" alt="University of Regina Logo" style="width: 80px; margin-right: 20px;">
+        <div class="header-content">
+        <div class="header-content">
+            <p class="program-title">Master of Science in Data Science</p>
+            <p>Department of Computer Science | University of Regina</p>
+        </div>
+    </header>
+    
+    <nav>
+        <a href="#program">Program Overview</a>
+        <a href="#curriculum">Curriculum</a>
+        <a href="#admissions">Admissions</a>
+        <a href="#scholarships">Scholarships</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <div class="container">
+        <section id="program">
+            <h2>Why Earn a Master's in Data Science at University of Regina?</h2>
+            <div class="highlight">
+                <p>“Learn to master the ever-growing mountain of crucial data that businesses across the globe need help managing and understanding. Prepare for a solid career in data analytics, data management, and more.”</p>
+            </div>
+            <div class="highlight">
+                <p>The Data Science M.S. is designed for students with a background in computer science or related fields who are interested in pursuing data analytics, machine learning, visualization, and more. To accommodate working professionals, courses are offered during day, evening, and weekends at the University of Regina campus.</p>
+            </div>
+            <div class="highlight">
+                <p>Gain the knowledge needed to apply data science concepts and techniques to address problems in business and scientific settings while learning to effectively communicate solutions. The coursework covers computing theory, programming languages, algorithms, and the use of mathematical and statistical models for conducting and implementing data analysis, with a focus on ethical application.</p>
+            </div>
+        </section>
+
+        <section id="curriculum">
+            <h2>Curriculum Requirements</h2>
+            <h3>Fundamental Courses</h3>
+            <table class="track-table">
+                <tr>
+                    <th>Course</th>
+                    <th>Description</th>
+                    <th class="credits">Credits</th>
+                </tr>
+                <tr>
+                    <td>DTSC 610</td>
+                    <td>Programming for Data Science</td>
+                    <td class="credits">3</td>
+                </tr>
+                <tr>
+                    <td>DTSC 615</td>
+                    <td>Optimization Methods for Data Science</td>
+                    <td class="credits">3</td>
+                </tr>
+                <tr>
+                    <td>DTSC 620</td>
+                    <td>Statistics for Data Science</td>
+                    <td class="credits">3</td>
+                </tr>
+                <tr>
+                    <td>DTSC 701</td>
+                    <td>Introduction to Big Data</td>
+                    <td class="credits">3</td>
+                </tr>
+                <tr>
+                    <td>DTSC 710</td>
+                    <td>Machine Learning</td>
+                    <td class="credits">3</td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: right;"><strong>Total Credits</strong></td>
+                    <td class="credits">15</td>
+                </tr>
+            </table>
+
+            <p><strong>Students must choose either Thesis Track or Non-Thesis/Project Track (below)</strong></p>
+            <h3>Thesis Track</h3>
+            <table class="track-table">
+                <tr>
+                    <th>Course</th>
+                    <th>Description</th>
+                    <th class="credits">Credits</th>
+                </tr>
+                <tr>
+                    <td>DTSC 890</td>
+                    <td>MS Thesis I</td>
+                    <td class="credits">3</td>
+                </tr>
+                <tr>
+                    <td>DTSC 891</td>
+                    <td>MS Thesis II</td>
+                    <td class="credits">3</td>
+                </tr>
+                <tr>
+                    <td>ELECTIVES</td>
+                    <td>Consult with program chair/program advisor on any electives.</td>
+                    <td class="credits">9</td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: right;"><strong>Total Credits</strong></td>
+                    <td class="credits">15</td>
+                </tr>
+            </table>
+
+            <h3>Non-Thesis/Project Track</h3>
+            <table class="track-table">
+                <tr>
+                    <th>Course</th>
+                    <th>Description</th>
+                    <th class="credits">Credits</th>
+                </tr>
+                <tr>
+                    <td>DTSC 870</td>
+                    <td>MS Project I</td>
+                    <td class="credits">3</td>
+                </tr>
+                <tr>
+                    <td>ELECTIVES</td>
+                    <td>Consult with program chair/program advisor on any electives.</td>
+                    <td class="credits">12</td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: right;"><strong>Total Credits</strong></td>
+                    <td class="credits">15</td>
+                </tr>
+            </table>
+        <div style="background-color: #f2f2f2; padding: 15px; margin-top: 20px; text-align: center;">
+                <strong>Total Required Credits = 30</strong>
+            </div>
+
+</section>
+
+        <section id="admissions">
+            <h2>Admission Requirements</h2>
+            <h2>How to Apply</h2>
+            <p>Thank you for your interest in the Data Science, M.S. program. Review the information below to apply.</p>
+
+<div class="accordion">
+                <h3>Admission Requirements</h3>
+                <div class="accordion-content">
+                    <p>Applicants must possess a bachelor’s degree from an accredited institution, with a GPA of 2.85 or higher on a 4.0 scale.</p>
+                    <p>Applicants who do not qualify for full matriculation and have an undergraduate GPA between 2.5 and 2.84, may be conditionally admitted at the discretion of the program director.</p>
+                    <p>As data science is an interdisciplinary field, we welcome applicants from diverse professional backgrounds. However, applicants should have the following prerequisites:</p>
+                    <ul>
+                        <li>One computer programming course</li>
+                        <li>One college-level statistics course</li>
+                        <li>Basic linear algebra</li>
+                        <li>Basic database systems</li>
+                    </ul>
+                    <p>Students with an insufficient background for direct admission into the Data Science M.S. program may be admitted if they take the required prerequisite course(s), with the approval of the director.</p>
+                </div>
+                <h3>Application Materials</h3>
+                <div class="accordion-content"></div>
+                <h3>Transfer Credits</h3>
+                <div class="accordion-content"></div>
+                <h3>Ways To Apply</h3>
+                <div class="accordion-content"></div>
+            </div>
+
+            
+        </section>
+
+        
+            <h2>Tuition & Financial Aid</h2>
+            
+            <div class="accordion">
+                <h3>Estimated Costs</h3>
+                <div class="accordion-content"></div>
+                <h3>Undergraduate Tuition & Fees</h3>
+                <div class="accordion-content"></div>
+                <h3>Graduate Tuition & Fees</h3>
+                <div class="accordion-content"></div>
+                <h3>Financial Aid</h3>
+                <div class="accordion-content"></div>
+                <h3>Understanding Financial Aid</h3>
+                <div class="accordion-content"></div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>University of Regina - Department of Computer Science</p>
+        <p>Contact Us | Career Opportunities | Privacy & Terms of Use</p>
+    </footer>
+</body>
+</html>
